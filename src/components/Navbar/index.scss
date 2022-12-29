@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   background-color: rgb(33, 37, 41);
+   .mainnavdiv{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    .nav_icon{
+        h3{
+            font-size: 20px;
+            color: white;
+        }
+       }
+    .hamburger_menu{
+        display: none;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        width: 50px;
+        padding: 1px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    .linkler{
+        ul{
+           .stil{
+            margin-left: 20px;
+            text-decoration: none;
+            color: rgb(255, 255, 255, 0.55);
+            &:hover{
+                color: rgb(217, 209, 209);
+                transition: all .3s;
+            }
+           }
+        }
+    }
+   }
+}
+@media screen and (max-width: 996px) {
+    nav{
+        .mainnavdiv {
+            .nav_icon{
+                margin-left: 20px;
+            }
+            .hamburger_menu{
+                margin-left: 30%;
+                display: block;
+            }
+            .linkler {
+                ul {
+                    .stil {
+                        display: none;
+                    }
+                }
+            }
+        } 
+    }
+}

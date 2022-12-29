@@ -1,0 +1,96 @@
+.fir{
+    background-color: rgb(33, 37, 41);
+    padding: 60px;
+    .first_sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        .left{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 40%;
+            h2{
+                width: 80%;
+                color: white;
+                font-size: 50px;
+                
+            }
+            p{
+                color: gainsboro;
+                width: 85%;
+                font-size: 20px;
+                
+            }
+            .buttonlar{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                #btn1{
+                    width: 130px;
+                    height: 45px;
+                    font-size: 20px;
+                    background-color: rgb(13, 110, 253);
+                    color: white;
+                    border-radius: 3px;
+                    border: none;
+                }
+                #btn2{
+                    width: 130px;
+                    height: 45px;
+                    font-size: 20px;
+                    background-color: transparent;
+                    border: 1px solid white;
+                    border-radius: 3px;
+                    color: white;
+                }
+            }
+        }
+        .right{
+            display: block;
+        }
+    }
+}
+@media screen and (max-width: 1250px) {
+   .fir{
+    .first_sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        .left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            
+            h2{
+                color: white;
+                width: 190%;
+                font-size: 20px;
+                
+            }
+            p{
+                color: gainsboro;
+                width: 210%;
+                font-size: 12px;
+                
+            }
+            .buttonlar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+        .right{
+            display: none;
+        }
+    }
+   }
+}

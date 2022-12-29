@@ -1,0 +1,90 @@
+.nine{
+    background-color: rgb(248, 249, 250);
+    .nine_sec{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        .has{
+            margin-top: 100px;
+            h3{
+                font-size: 33px;
+                font-weight: bold;
+            }
+        }
+        .dedicate{
+            p{
+                font-size: 20px;
+                color: rgb(108, 117, 125);
+            }
+        }
+        .teammates{
+            padding-top: 30px;
+            padding-bottom: 120px;
+            display: flex;
+            flex-direction: row;
+            gap: 170px;
+            img{
+                border-radius: 50%;
+            }
+            h3{
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 15px;
+            }
+            p{
+                font-style: italic;
+                color: rgb(108, 117, 125);
+            }
+        }
+    }
+}
+@media screen and (max-width: 1250px) {
+    .nine{
+        background-color: rgb(248, 249, 250);
+        .nine_sec{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 100%;
+            .has{
+                margin-top: 100px;
+                h3{
+                    font-size: 33px;
+                    font-weight: bold;
+                }
+            }
+            .dedicate{
+                p{
+                    font-size: 20px;
+                    color: rgb(108, 117, 125);
+                }
+            }
+            .teammates{
+                padding-top: 30px;
+                padding-bottom: 120px;
+                display: flex;
+                flex-direction: column;
+                gap: 100px;
+                img{
+                    border-radius: 50%;
+                }
+                h3{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 15px;
+                }
+                p{
+                    font-style: italic;
+                    color: rgb(108, 117, 125);
+                }
+            }
+        }
+    }
+}
